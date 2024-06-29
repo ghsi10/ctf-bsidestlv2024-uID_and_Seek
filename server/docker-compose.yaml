@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  challenge:
+    image: registry.ctfd.io/bstlv24/uid-and-seek
+    build: .
+    ports:
+      - "0.0.0.0:4444:4444"
+    restart: always
